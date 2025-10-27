@@ -30,6 +30,13 @@ while True:
             print(f"Total expense: {ossz}")
             print(f"Average expense: {atlag} ")
 
+    elif choice == "4":
+        expenses.clear()
+        print("All expenses cleared.")
+
     elif choice == "5":
         print("Exiting the Daily Expense Tracker. Goodbye!")
         break
+
+    elif choice >= "5" or choice <= "1":
+        print("Invalid choice. Please try again.")
